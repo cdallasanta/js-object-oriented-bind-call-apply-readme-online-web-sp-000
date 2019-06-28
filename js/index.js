@@ -8,5 +8,5 @@ let sally = { name: 'Sally' };
 greet.call(sally, 'Terry', 'George');
 // my name is Sally, hi!
 
-greet.apply(sally);
+greet.apply(sally, ['Terry', 'George']);
 // my name is Sally, hi!
